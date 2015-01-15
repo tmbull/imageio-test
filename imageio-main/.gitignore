@@ -1,0 +1,13 @@
+lib/
+log/
+target/
+.settings/
+.project
+.classpath
+.idea/
+node_modules/
+reports/
+target-grunt/
+.log
+.tmp
+bin/

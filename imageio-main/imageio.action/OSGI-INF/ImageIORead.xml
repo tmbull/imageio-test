@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" scr:schemaLocation="http://www.osgi.org/xmlns/scr/v1.1.0/scr.xsd" immediate="true" name="ImageIORead" activate="activate" deactivate="deactivate">
+   <implementation class="org.imageio.action.ImageIORead"/>
+   <service>
+      <provide interface="com.perceptivesoftware.pie.common.connector.Action"/>
+   </service>
+   <property name="component.group" type="String" value="ImageIOTest"/>
+</scr:component>

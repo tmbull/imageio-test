@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="Perceptive Connect" sequenceNumber="81">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="false" type="InstallableUnit">
+<unit id="org.apache.commons.codec" version="1.3.0.v201101211617"/>
+<unit id="org.apache.commons.collections" version="3.2.0.v201005080500"/>
+<unit id="org.apache.commons.fileupload" version="1.2.2.v20111214-1400"/>
+<unit id="org.apache.commons.httpclient" version="3.1.0.v201012070820"/>
+<unit id="org.apache.commons.io" version="2.0.1.v201105210651"/>
+<unit id="org.apache.commons.lang" version="2.6.0.v201205030909"/>
+<unit id="org.apache.commons.logging" version="1.1.1.v201101211721"/>
+<unit id="org.apache.commons.pool" version="1.6.0.v201204271246"/>
+<unit id="javax.activation" version="1.1.0.v201108011116"/>
+<unit id="org.apache.axis" version="1.4.0.v201005080400"/>
+<unit id="org.objectweb.asm" version="3.3.1.v201105211655"/>
+<unit id="javax.transaction" version="1.1.1.v201105210645"/>
+<unit id="org.hamcrest.core" version="1.1.0.v20090501071000"/>
+<unit id="org.hamcrest" version="1.1.0.v20090501071000"/>
+<unit id="org.hamcrest.text" version="1.1.0.v20090501071000"/>
+<unit id="org.hamcrest.library" version="1.1.0.v20090501071000"/>
+<unit id="org.hamcrest.integration" version="1.1.0.v20090501071000"/>
+<unit id="org.apache.commons.discovery" version="0.2.0.v201004190315"/>
+<unit id="javax.xml.ws" version="2.1.0.v200902101523"/>
+<unit id="org.objenesis" version="1.0.0.v201105211943"/>
+<unit id="org.mockito" version="1.8.4.v201102171835"/>
+<unit id="javax.persistence" version="1.0.0.v200905011740"/>
+<unit id="javax.mail" version="1.4.0.v201005080615"/>
+<unit id="javax.xml.rpc" version="1.1.0.v201005080400"/>
+<unit id="javax.ws.rs" version="1.1.1.v20101004-1200"/>
+<unit id="javax.xml" version="1.3.4.v201005080400"/>
+<unit id="org.mortbay.jetty.server" version="6.1.23.v201012071420"/>
+<unit id="org.mortbay.jetty.util" version="6.1.23.v201012071420"/>
+<unit id="org.mortbay.jetty" version="5.1.14.v200806031611"/>
+<unit id="org.json" version="1.0.0.v201011060100"/>
+<unit id="javax.servlet.jsp" version="2.2.0.v201112011158"/>
+<unit id="org.junit" version="4.10.0.v4_10_0_v20120426-0900"/>
+<unit id="osgi.enterprise" version="4.2.0.v201108120515"/>
+<unit id="javax.xml.soap" version="1.3.0.v201105210645"/>
+<unit id="org.w3c.dom.events" version="3.0.0.draft20060413_v201105210656"/>
+<unit id="javax.wsdl" version="1.6.2.v201012040545"/>
+<unit id="org.codehaus.jackson.core" version="1.6.0.v20101005-0925"/>
+<unit id="org.codehaus.jackson.jaxrs" version="1.6.0.v20101005-1100"/>
+<unit id="org.codehaus.jackson.mapper" version="1.6.0.v20101005-0925"/>
+<repository location="http://dsbuild1.pvi.com/eclipse/orbit/p2/R20120526/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="false" type="InstallableUnit">
+<unit id="org.eclipse.persistence.sdk.feature.group" version="2.4.1.v20121003-ad44345"/>
+<repository location="http://dsbuild1.pvi.com/eclipse/persistence/p2/2.4.1/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="false" type="InstallableUnit">
+<unit id="org.eclipse.gemini.jpa.feature.feature.group" version="1.1.0.RELEASE"/>
+<repository location="http://dsbuild1.pvi.com/eclipse/gemini/jpa/p2/1.1.0/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="false" type="InstallableUnit">
+<unit id="org.eclipse.gemini.dbaccess.h2.feature.feature.group" version="1.1.0.RELEASE"/>
+<repository location="http://dsbuild1.pvi.com/eclipse/gemini/dbaccess/p2/1.1.0.RELEASE/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="false" type="InstallableUnit">
+<unit id="org.eclipse.equinox.sdk.feature.group" version="3.8.0.v20121212-203907-7M7fA78g4_y-gDvtH0ZcFvhMPDZJ"/>
+<repository location="http://dsbuild1.pvi.com/eclipse/equinox/p2/3.8.2/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="false" type="InstallableUnit">
+<unit id="pif.runtime.feature.feature.group" version="1.0.11.SNAPSHOT"/>
+<unit id="pif.api.feature.source.feature.group" version="1.0.11.SNAPSHOT"/>
+<unit id="pie.engine.runtime.feature.feature.group" version="1.0.11.SNAPSHOT"/>
+<unit id="pie.engine.api.feature.source.feature.group" version="1.0.11.SNAPSHOT"/>
+<unit id="imagenow.service.runtime.feature.feature.group" version="1.0.0.SNAPSHOT"/>
+<unit id="imagenow.service.api.feature.source.feature.group" version="1.0.0.SNAPSHOT"/>
+<unit id="connect.runtime.feature.feature.group" version="1.0.11.SNAPSHOT"/>
+<repository location="http://dsbuild1.pvi.com:8080/content/repositories/snapshots/.meta/p2"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="slicer" includeSource="false" type="InstallableUnit">
+<unit id="webconsole.feature.feature.group" version="4.2.0"/>
+<unit id="thirdparty.feature.feature.group" version="1.1.2"/>
+<repository location="http://dsbuild1.pvi.com:8080/content/repositories/thirdparty/.meta/p2"/>
+</location>
+</locations>
+</target>
