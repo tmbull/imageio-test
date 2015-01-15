@@ -7,9 +7,8 @@ import java.net.Proxy;
 import java.net.URL;
 import java.net.URLConnection;
 
+import javax.imageio.ImageIO;
 import javax.imageio.spi.IIORegistry;
-import javax.imageio.stream.ImageInputStream;
-import javax.imageio.stream.MemoryCacheImageInputStream;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,7 +16,6 @@ import org.slf4j.LoggerFactory;
 import com.perceptivesoftware.pie.common.data.Context;
 import com.perceptivesoftware.pie.common.data.ContextShape;
 import com.perceptivesoftware.pie.util.connector.AbstractAction;
-import com.sun.media.imageioimpl.plugins.tiff.TIFFImageReader;
 import com.sun.media.imageioimpl.plugins.tiff.TIFFImageReaderSpi;
 
 public class ImageIORead extends AbstractAction
@@ -65,12 +63,12 @@ public class ImageIORead extends AbstractAction
         URLConnection connection = urlObj.openConnection(proxy);
         InputStream stream = connection.getInputStream();
 
-        ImageInputStream imageStream = new MemoryCacheImageInputStream(stream);
-        TIFFImageReader reader = new TIFFImageReader(new TIFFImageReaderSpi());
-        reader.setInput(imageStream);
-        BufferedImage image = reader.read(0);
+        // ImageInputStream imageStream = new MemoryCacheImageInputStream(stream);
+        // TIFFImageReader reader = new TIFFImageReader(new TIFFImageReaderSpi());
+        // reader.setInput(imageStream);
+        // BufferedImage image = reader.read(0);
 
-        // BufferedImage image = ImageIO.read(stream);
+        BufferedImage image = ImageIO.read(stream);
 
         logger.info("Action ImageIORead completed.");
 
